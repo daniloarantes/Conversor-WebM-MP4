@@ -18,8 +18,8 @@ for arq in *; do
 		echo "          FINALIZADA A CONVERSÃO             "
 		echo "---------------------------------------------"
 
+		mv "$arq" Originais/
 	fi
-	mv "$arq" Originais/
 
 
 done
